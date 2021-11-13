@@ -1,0 +1,83 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - namaskar
+    - nomoskar
+    - namaste
+    - suprabhat
+    - start
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - end
+    - stop
+
+- intent: faq/cost
+  examples: |
+    - how much does radiotherapy cost?
+    - what are the charges for treatment?
+    - what is the price of radiation?
+    - Is radiotherapy expensive?
+
+
+- intent: faq/time_to_start
+  examples: |
+    - when will radiotherapy start?
+    - how long will it take to start treatment?
+    - how many days will it take for treatment to begin?
+
+- intent: faq/treatment_time
+  examples: |
+    - how much time does it take for treatment everyday?
+    - how long does one treatment last?
+    - what is the time taken for treatment everyday?
+    - how many hours will treatment take?
+    - how many minutes will treatment take?
+
+- intent: faq/treat_fractions
+  examples: |
+    - how many treatments are needed?
+    - how many days of treatment?
+    - how long is the full treatment going to take?
+    - what is the duration of radiotherapy?
+    - what is the time period for the full course of treatment?
+    
+- intent: chitchat/how_r_u
+  examples: |
+    - How are you?
+    - how are you doing?
+    - aap kaise hain?
+    - kemon acchen?
+
+- intent: chitchat/how_do_you_work
+  examples: |
+    - How does this work?
+    - are you a bot?
+    - are you a real person?
+    - aap kaun hain?
+    - apni ke?

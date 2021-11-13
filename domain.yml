@@ -1,0 +1,38 @@
+version: "2.0"
+
+intents:
+  - greet
+  - chitchat
+  - faq
+  - goodbye
+
+
+
+responses:
+  utter_greet:
+  - text: "Hello! I am ProBot, a virtual counselling agent. I can answer questions that are frequently asked by patients who are going to start radiotherapy for prostate cancer. Ask me a question."
+  
+  utter_faq/cost:
+  - text: "The cost of radiotherapy is 1.9 lacs in the private category and 1.1 lac in the general category. If you have more questions please contact the radiotherapy reception."
+
+  utter_faq/time_to_start:
+  - text: "It usually takes 7 to 10 days to start radiotherapy after your planning CT scan."
+  
+  utter_faq/treatment_time:
+  - text: "On a daily basis, you will need to report to the radiotherapy department at your designated time. There may be a period of waiting. You will then be asked to pass urine, drink 500 ml of water and wait for 30 mins. After this you will be called in for treatment. The treatment usually takes between 10-20 minutes. After your treatment is over, you can leave. There is no need to rest or wait in the hospital."
+  
+  utter_faq/treat_fractions:
+  - text: "Usually the radiotherapy treatment will go on for 20 days, 5 days a week, Monday to Friday."
+  
+  utter_chitchat/how_r_u:
+  - text: "I am great. I hope you are great too."
+  
+  utter_goodbye:
+  - text: "Thank you for trying this out. I hope this session was useful for you. Goodbye."
+
+  utter_chitchat/how_do_you_work:
+  - text: "I am a bot, powered by Rasa."
+
+#session_config:
+#  session_expiration_time: 60
+#  carry_over_slots_to_new_session: true
